@@ -1,0 +1,72 @@
+.navbar{
+    background-color: rgb(45, 49, 71);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+}
+.navbar input{
+    margin-left: 20px;
+    width: 470px;
+    outline: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    margin-right: 20px;
+}
+.navbar button{
+    border: none;
+    background-color: rgb(248, 68, 100);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 4px;
+}
+.slide marquee{
+padding: 8px;
+}
+.logo{
+    display: flex;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+}
+.title a{
+    text-decoration: none;
+    color: rgb(248, 68, 100);;
+}
+
+.movies{
+    display: flex;
+    padding: 0px 45px;
+    justify-content: space-between;
+
+}
+
+.movie img{
+    height: 300px;
+    width: 176px;
+    border-radius: 8px;
+    
+}
+
+.movie img:hover{
+    /* transform: translateY(-10px); */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* .moviee img{
+    height: 300px;
+    width: 176px;
+    border-radius: 8px;
+}
+
+.moviee img:hover{
+    transform: translateY(-10px); */
+    /* transform: scale(1.1);
+    transition: 0.5s;
+} */
